@@ -53,6 +53,18 @@ nav {
     background-color: #eee;
 }
 
+.menu-lateral {
+    border: .1rem solid blue;
+}
+
+li {
+    border: .1rem solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
 main {
     /* border: .1rem solid #e6088d; */
     flex: 1;
@@ -65,4 +77,3 @@ footer {
     color: #eee;
     padding: .5rem;
 }
-
