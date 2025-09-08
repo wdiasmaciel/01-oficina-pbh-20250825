@@ -76,10 +76,18 @@ a {
 }
 
 .opcao:hover {
-  background-color: #ccc;
-  color: black;
-  box-shadow: .5rem .5rem .3rem .01rem #ddd;
-  border: .1rem solid #bdbdbd;
+    background-color: #ccc;
+    color: black;
+    box-shadow: .5rem .5rem .3rem .01rem #ddd;
+    border: .1rem solid #bdbdbd;
+}
+
+.opcao:hover .rotulo {
+    text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1;
 }
 
 .icone-inicial {
@@ -95,6 +103,8 @@ a {
 .icone-final {
     /* border: .1rem solid purple; */
     margin-left: .3rem;
+    opacity: 0;
+    transition: opacity .3s ease-in;
 }
 
 main {
