@@ -47,25 +47,25 @@ header {
 }
 
 .menu-hamburguer {
-   /* border: .1rem solid red;  */
-   border-radius: 100%;
-   width: 1rem;
-   height: 1rem;
-   padding: .8rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-   background-color: #464646;
+    /* border: .1rem solid red;  */
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #464646;
 }
 
 .menu-hamburguer i {
     font-size: 1.2rem;
-    color:#ccc;
+    color: #ccc;
 }
 
 .menu-hamburguer:hover i {
-   color: #eee;
+    color: #eee;
 }
 
 .menu-hamburguer i:hover {
@@ -149,4 +149,14 @@ footer {
     background-color: #252323;
     color: #eee;
     padding: .5rem;
+}
+
+@media (max-width: 576px) {
+    .titulo {
+        opacity: 0;
+    }
+
+    nav {
+        display: none;
+    }
 }
