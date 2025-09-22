@@ -6,9 +6,9 @@ function verificarCredenciais() {
     const senhaInformada = document.getElementById("senha").value;
 
     if(emailInformado === email) {
-        alert("E-mail informado corretamente!");
+        // alert("E-mail informado corretamente!");
         if(senhaInformada === senha) {
-            alert("Senha informada corretamente!")
+            // alert("Senha informada corretamente!")
             window.location = "home.html";
         } else
             alert("Senha incorreta!");
