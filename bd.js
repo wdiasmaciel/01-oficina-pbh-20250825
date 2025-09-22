@@ -16,13 +16,13 @@ const dados = [
   },
   {
     "id": 2,
-    "titulo": ,
-    "descricao": ,
-    "conteudo": ,
-    "categoria": ,
-    "autor": ,
-    "data": ,
-    "imagem": "assets/imagem/"
+    "titulo": "Tecnologia 6G",
+    "descricao": "A tecnologia 6G é a sexta geração de redes móveis",
+    "conteudo": "A tecnologia 6G é a sexta geração de redes móveis, prometendo superar as limitações do 5G com velocidades ultrarrápidas (até 1 Tbps), latência de microssegundos, e uma capacidade massiva de conectar dispositivos. Em desenvolvimento e fase de testes em laboratórios globais, o 6G visa ser a base para inovações como comunicação holográfica, gêmeos digitais e a integração de inteligência artificial, com a expectativa de sua chegada comercial por volta de 2030. ",
+    "categoria": "Tecnologia",
+    "autor": "José Campos Alves",
+    "data": "21/09/2025",
+    "imagem": "assets/imagem/tecnologia-6g.png"
   },
   {
     "id": 3,
