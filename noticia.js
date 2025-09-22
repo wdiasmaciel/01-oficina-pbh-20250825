@@ -1,6 +1,7 @@
 function lerNoticias() {
     const container = document.getElementById("container");
-
+    container.innerHTML = "";
+    
     dados.forEach(item => {
         const cartao = document.createElement("div");
         cartao.className = "cartao";
