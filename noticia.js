@@ -1,4 +1,6 @@
 function lerNoticias() {
+    const container = document.getElementById("container");
+
     dados.forEach(item => {
         const cartao = document.createElement("div");
         cartao.className = "cartao";
@@ -10,6 +12,6 @@ function lerNoticias() {
            <p>${item.autor}</p>
            <a href="detalhe.html?id=${item.id}">Leia mais</a>
         `;
-
+         container.appendChild(cartao);
     }); 
 }
